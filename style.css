@@ -1,0 +1,46 @@
+:root.dark {
+    --border-btn: 1px solid white;
+    --color-base-bg: black;
+    --color-base-text: white;
+    --color-btn-bg: black;
+    --bg-img: url("lightbulb_white_24dp.svg");
+}
+
+:root.light {
+    --border-btn: 1px solid black;
+    --color-base-bg: white;
+    --color-base-text: black;
+    --color-btn-bg: white;
+    --bg-img: url("nightlight_round_black_24dp.svg");
+}
+
+body,
+.toggle {
+   color: var(--color-base-text);
+   transition: 0.5s;
+}
+
+body {
+    background-color: var(--color-base-bg);
+    padding: 10px;
+}
+
+.toggle {
+    background-color: var(--color-btn-bg);
+    border: var(--color-base-bg);
+    border-radius: 50%;
+    font-size: 1.125 rem;
+    width: 50px;
+    height: 50px;
+    background: var(--bg-img) no-repeat center;
+    background-size: 100%;
+    color: white;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+div {
+    color: var(--color-base-text);
+}
