@@ -1,17 +1,17 @@
 :root.dark {
-    --border-btn: 1px solid white;
+    --border-btn: 2px solid white;
     --color-base-bg: black;
     --color-base-text: white;
     --color-btn-bg: black;
-    --bg-img: url("lightbulb_white_24dp.svg");
+    --bg-btn-img: url("lightbulb_white_24dp.svg");
 }
 
 :root.light {
-    --border-btn: 1px solid black;
+    --border-btn: 2px solid black;
     --color-base-bg: white;
     --color-base-text: black;
     --color-btn-bg: white;
-    --bg-img: url("nightlight_round_black_24dp.svg");
+    --bg-btn-img: url("mode_night_black_24dp.svg");
 }
 
 body,
@@ -27,13 +27,13 @@ body {
 
 .toggle {
     background-color: var(--color-btn-bg);
-    border: var(--color-base-bg);
+    border: var(--border-btn);
     border-radius: 50%;
     font-size: 1.125 rem;
-    width: 50px;
-    height: 50px;
-    background: var(--bg-img) no-repeat center;
-    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    background: var(--bg-btn-img) no-repeat center;
+    background-size: 80%;
     color: white;
 }
 
