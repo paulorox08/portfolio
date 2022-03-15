@@ -2,7 +2,6 @@
     --border-btn: 2px solid white;
     --color-base-bg: black;
     --color-base-text: white;
-    --color-btn-bg: black;
     --bg-btn-img: url("lightbulb_white_24dp.svg");
 }
 
@@ -10,7 +9,6 @@
     --border-btn: 2px solid black;
     --color-base-bg: white;
     --color-base-text: black;
-    --color-btn-bg: white;
     --bg-btn-img: url("mode_night_black_24dp.svg");
 }
 
@@ -26,7 +24,6 @@ body {
 }
 
 .toggle {
-    background-color: var(--color-btn-bg);
     border: var(--border-btn);
     border-radius: 50%;
     font-size: 1.125 rem;
@@ -35,6 +32,9 @@ body {
     background: var(--bg-btn-img) no-repeat center;
     background-size: 80%;
     color: white;
+    position: fixed;
+    top: 1%;
+    right: 1%;
 }
 
 .toggle:hover {
