@@ -20,7 +20,6 @@ body,
 
 body {
     background-color: var(--color-base-bg);
-    padding: 10px;
 }
 
 .toggle {
@@ -41,6 +40,8 @@ body {
     cursor: pointer;
 }
 
-div {
-    color: var(--color-base-text);
+.header {
+    display: flex;
+    background-color: black;
+    margin: 0;
 }
