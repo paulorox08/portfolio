@@ -74,7 +74,6 @@ body {
 }
 
 .username {
-    position: relative;
     margin-top: auto;
     font-size: 70px;
     font-weight: bolder;
@@ -96,6 +95,9 @@ body {
     transform: rotate(360deg) scale(1.2);
 }
 
+.arrow-projects {
+    bottom: 0px;
+}
 /* PROJECTS */
 
 .projects {
