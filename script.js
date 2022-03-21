@@ -3,7 +3,7 @@ const toggle = document.querySelector('.toggle');
 
 function lightOrDark() {
     const root = document.documentElement;
-    const newTheme = root.className === 'light' ? 'dark' : 'light';
+    const newTheme = root.className === 'dark' ? 'light' : 'dark';
     root.className = newTheme;
 }
 

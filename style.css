@@ -11,18 +11,20 @@ a {
 
 :root.dark {
     --border-btn: 2px solid white;
-    --color-base-bg: #14213D;
-    --color-base-text: #E5E5E5;
+    --color-base-bg: #343A40;
+    --color-base-text: #E9ECEF;
     --bg-btn-img: url("images/lightbulb_white_24dp.svg");
-    --header-colour: #000000;
+    --header-colour: #151618;
+    --accents-colour: #FCA311;
 }
 
 :root.light {
     --border-btn: 2px solid black;
-    --color-base-bg: #E5E5E5;
-    --color-base-text: #14213D;
+    --color-base-bg: #E9ECEF;
+    --color-base-text: #212529;
     --bg-btn-img: url("images/mode_night_black_24dp.svg");
-    --header-colour: #2B2D42;
+    --header-colour: #343A40;
+    --accents-colour: #D90429;
 }
 
 body,
@@ -43,6 +45,18 @@ body {
 
 /* dark mode and light mode button */
 
+.toggle-container {
+    background-color: var(--accents-colour);
+    width: 50px;
+    height: 58px;
+    margin: 0%;
+    position: fixed;
+    align-items: center;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+}
+
 .toggle {
     border: var(--border-btn);
     border-radius: 50%;
@@ -52,7 +66,6 @@ body {
     background-size: 80%;
     color: white;
     position: fixed;
-    right: 2%;
 }
 
 .toggle:hover {
@@ -126,7 +139,7 @@ body {
 }
 
 #arrow-projects {
-    color: var(--color-base-text);
+    color: var(--accents-colour);
     position: absolute;
     bottom: 6%;
     font-size: 30px;
@@ -159,10 +172,11 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    gap: 0;
 }
 
 #arrow-education {
-    color: var(--color-base-text);
+    color: var(--accents-colour);
     margin-bottom: 1%;
     font-size: 30px;
 }
