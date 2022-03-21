@@ -11,15 +11,15 @@ a {
 
 :root.dark {
     --border-btn: 2px solid white;
-    --color-base-bg: black;
+    --color-base-bg: #2B2D42;
     --color-base-text: white;
     --bg-btn-img: url("images/lightbulb_white_24dp.svg");
 }
 
 :root.light {
     --border-btn: 2px solid black;
-    --color-base-bg: white;
-    --color-base-text: black;
+    --color-base-bg: #E5E5E5;
+    --color-base-text: #14213D;
     --bg-btn-img: url("images/mode_night_black_24dp.svg");
 }
 
@@ -60,7 +60,7 @@ body {
 /* HEADER */
 .header {
     display: flex;
-    background-color: grey;
+    background-color: #14213D;
     margin: 0;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -161,7 +161,7 @@ body {
 
 #arrow-education {
     color: var(--color-base-text);
-    margin-bottom: 10%;
+    margin-bottom: 1%;
     font-size: 30px;
 }
 
