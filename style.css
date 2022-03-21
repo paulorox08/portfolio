@@ -173,10 +173,18 @@ body {
 
 /* EDUCATION */
 
-.education {
+.education-page {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    overflow: auto;
+    padding: 20px;
+}
+
+.education-title {
+    font-size: 60px;
+    margin-top: 0.5%;
 }
 
 /* SKILLS */
