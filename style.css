@@ -11,9 +11,10 @@ a {
 
 :root.dark {
     --border-btn: 2px solid white;
-    --color-base-bg: #2B2D42;
-    --color-base-text: white;
+    --color-base-bg: #14213D;
+    --color-base-text: #E5E5E5;
     --bg-btn-img: url("images/lightbulb_white_24dp.svg");
+    --header-colour: #000000;
 }
 
 :root.light {
@@ -21,6 +22,7 @@ a {
     --color-base-bg: #E5E5E5;
     --color-base-text: #14213D;
     --bg-btn-img: url("images/mode_night_black_24dp.svg");
+    --header-colour: #2B2D42;
 }
 
 body,
@@ -60,7 +62,7 @@ body {
 /* HEADER */
 .header {
     display: flex;
-    background-color: #14213D;
+    background-color: var(--header-colour);
     margin: 0;
     padding-top: 17px;
     padding-bottom: 17px;
